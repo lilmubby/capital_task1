@@ -2,7 +2,6 @@ import "./Profile.css"
 import { Switch, Checkbox } from 'antd';
 import { PlusOutlined } from "@ant-design/icons"
 import type { CheckboxChangeEvent } from 'antd/es/checkbox';
-import type {SwitchChangeEventHandler}from "antd/es/switch"
 
 const Profile = () => {
 
