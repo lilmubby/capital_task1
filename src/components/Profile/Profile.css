@@ -1,0 +1,6 @@
+.profile_container {
+  height: auto;
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}

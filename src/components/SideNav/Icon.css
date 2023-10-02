@@ -1,0 +1,25 @@
+.icon_wrapper > img {
+  /* width: 1.375rem;
+  height: 1.15738rem; */
+  height: 1rem;
+}
+
+
+.home_container {
+  display: grid;
+  padding-top: 5rem;
+  gap: 1rem;
+}
+
+.home_container img:first-of-type{
+  /* width: 2.25rem; */
+  height: 2.19294rem;
+  height: 1.5rem;
+}
+
+.home_container img:last-of-type{
+  /* width: 2.0625rem; */
+  height: 2.01019rem;
+  height: 1.5rem;
+}
+

@@ -1,0 +1,75 @@
+.personlInfo_container {
+  height: auto;
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.personlInfo_heading {
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: #D0F7FA;
+  padding: .75rem 0 ;
+  padding-left: 3rem
+}
+
+.info_wrapper, .wrap {
+  padding-inline: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.fieldText {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%;
+  width: 100%;
+  outline: 0;
+  border: 0;
+}
+.fieldText::placeholder {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.bottoms {
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 1rem;
+}
+
+.others{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottoms p, .others p {
+  color: #000;
+font-family: "Poppins", sans-serif;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 114%; /* 1.425rem */
+}
+.bottoms p > span {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 114%;
+}
+
+.antd {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.pd {
+  padding-bottom: 1rem;
+}
+
+.card > button {
+  width: 8rem;
+}

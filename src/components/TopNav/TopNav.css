@@ -1,0 +1,36 @@
+.top_nav_wrapper {
+  border-radius: 0.5625rem;
+  background: #FFF;
+  box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  position: relative;
+}
+
+.top_nav_wrapper li {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 3rem;
+  padding: .55rem 0;
+  position: relative;
+}
+
+.top_nav_wrapper li:nth-child(2) {
+  background: #00635B;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: .55rem 1rem;
+}
+
+.top_nav_wrapper .img1{
+  /* height: 3rem; */
+}
