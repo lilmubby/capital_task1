@@ -1,4 +1,3 @@
-import React from 'react'
 import TopNav from '../components/TopNav/TopNav'
 import "./Main.css"
 import Image from '../components/Image/Image'

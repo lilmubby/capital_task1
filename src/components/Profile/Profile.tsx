@@ -2,14 +2,15 @@ import "./Profile.css"
 import { Switch, Checkbox } from 'antd';
 import { PlusOutlined } from "@ant-design/icons"
 import type { CheckboxChangeEvent } from 'antd/es/checkbox';
+import type {SwitchChangeEventHandler}from "antd/es/switch"
 
 const Profile = () => {
 
   const checkboxHandler = (e: CheckboxChangeEvent) => {
     console.log(e);
   }
-  const switchHandler = (checked: boolean, event: Event) => {
-    console.log(checked, event);
+  const switchHandler = (checked: boolean) => {
+    console.log(checked);
   }
 
 
@@ -27,7 +28,10 @@ const Profile = () => {
           </p>
           <div className="antd">
             <Checkbox onChange={checkboxHandler} > Mandatory </Checkbox>
-            <Switch size="small" onChange={switchHandler} />
+            <Switch 
+            size="small" 
+            onChange={switchHandler} 
+            />
           </div>
         </div>
         <div className="bottoms others">
@@ -36,7 +40,10 @@ const Profile = () => {
           </p>
           <div className="antd">
             <Checkbox onChange={checkboxHandler} > Mandatory </Checkbox>
-            <Switch size="small" onChange={switchHandler} />
+            <Switch 
+            size="small" 
+            onChange={switchHandler} 
+            />
           </div>
         </div>
         <div className="bottoms others">
@@ -45,7 +52,10 @@ const Profile = () => {
           </p>
           <div className="antd">
             <Checkbox onChange={checkboxHandler} > Mandatory </Checkbox>
-            <Switch size="small" onChange={switchHandler} />
+            <Switch 
+            size="small" 
+            onChange={switchHandler} 
+            />
           </div>
         </div>
 

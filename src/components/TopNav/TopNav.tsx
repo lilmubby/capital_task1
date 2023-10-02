@@ -1,4 +1,3 @@
-import React from 'react'
 import "./TopNav.css"
 import TopNavList from './TopNavList'
 

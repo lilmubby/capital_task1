@@ -8,17 +8,17 @@ import type { CheckboxChangeEvent } from 'antd/es/checkbox';
 const PersonalInfo = () => {
 
   const switchHandler = (checked: boolean) => {
-    // console.log(checked);
+    console.log(checked);
     
   }
   const checkboxHandler = (e: CheckboxChangeEvent) => {
     console.log(e);
   }
 
-  const switchClick = (checked: boolean, event: Event) => {
-    console.log("clieck event", event);
-    console.log("clieck check", checked);
-  }
+  // const switchClick = (checked: boolean, event: Event) => {
+  //   console.log("clieck event", event);
+  //   console.log("clieck check", checked);
+  // }
 
   return (
     <div className='personlInfo_container card'>

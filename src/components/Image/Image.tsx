@@ -1,4 +1,3 @@
-import React, { SyntheticEvent } from 'react'
 import "./Image.css"
 import uploadImg from "../../assets/image 308.png"
 import { useAppDispatch, useAppSelector } from '../../hooks'
